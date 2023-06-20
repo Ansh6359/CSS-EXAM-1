@@ -1,0 +1,81 @@
+/* a) Use at least 3 types of selectors */
+h1 {
+    /* Selector type 1: Element selector */
+    /* Add your styles here */
+  }
+  
+  #mainheading {
+    /* Selector type 2: ID selector */
+    /* Add your styles here */
+  }
+  
+  .wrapper {
+    /* Selector type 3: Class selector */
+    /* Add your styles here */
+  }
+  
+  /* b) Set the font-family of all headings to an externally hosted web font */
+  h1, h2, h3 {
+    /* Add your styles here */
+    font-family: 'Your External Web Font', sans-serif; /* Replace 'Your External Web Font' with the chosen font from Google Fonts */
+  }
+  
+  /* c) Set the font-family and text size of paragraphs and table text to a locally hosted web font */
+  p, table {
+    /* Add your styles here */
+    font-family: 'Your Locally Hosted Web Font', sans-serif; /* Replace 'Your Locally Hosted Web Font' with the chosen font from Font Squirrel */
+    font-size: 18px;
+  }
+  
+  /* d) Set the text size of all paragraph and table text to the equivalent of 18px using a relative unit */
+  p, table {
+    /* Add your styles here */
+    font-size: 1rem; /* 1rem is equivalent to 16px by default, adjust the value if needed */
+  }
+  
+  /* f) Set the div.wrapper to 80% of the viewport width using a flexible and relative unit. Center the div in the middle of the page */
+  div.wrapper {
+    /* Add your styles here */
+    width: 80vw; /* 80% of the viewport width */
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+  }
+  
+  /* g) Add padding to the top, left, and right of the article */
+  article {
+    /* Add your styles here */
+    padding-top: 2em; /* 2ems of padding to the top */
+    padding-left: 3em; /* 3ems of padding to the left */
+    padding-right: 3em; /* 3ems of padding to the right */
+  }
+  
+  /* h) Choose a background color and apply it to div.wrapper */
+  div.wrapper {
+    /* Add your styles here */
+    background-color: #F0F0F0; /* Replace with the desired background color */
+  }
+  
+  /* i) Make the image responsive */
+  img {
+    /* Add your styles here */
+    max-width: 100%; /* Make the image responsive by setting its maximum width to 100% */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+  /* j) Style the footer */
+  footer {
+    /* Add your styles here */
+    background-color: #333; /* Background color */
+    color: #FFF; /* Text color */
+    padding-top: 3em; /* 3ems of padding to the top */
+    padding-bottom: 3em; /* 3ems of padding to the bottom */
+    padding-left: 3em; /* 3ems of padding to the left */
+    position: sticky; /* Make the footer sticky */
+    bottom: 0; /* Position the footer at the bottom of the viewport */
+  }
+  
+  /* k) Style the table according to best practices */
+  table {
+    /* Add your styles here */
+    border-collapse: collapse; /*
+  
